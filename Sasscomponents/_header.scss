@@ -1,0 +1,71 @@
+
+// DASHBOARD                     // CHECK Z-INDEXS
+
+
+
+.kassa{
+    width: 300px;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    
+    
+    
+}
+
+
+.panel{
+    height: 900px;
+    width: 300px ;
+    left: 0px;
+    top: 200px;
+    gap: 40px;
+    font-family: Karla, sans-serif;
+    display: flex;
+    background-color: #141252;
+    position: fixed;
+    color: white;
+    flex-direction: column;
+    font-size: 22px;
+    z-index: 2;
+    
+}
+
+.panel span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 20px;
+    text-decoration: underline rgb(255, 255, 255);
+    
+}
+
+
+
+.panelsecond{
+
+    color: white;
+    position: fixed;
+    bottom: 100px;
+    gap: 20px;
+    font-size: 22px;
+    flex-direction: column;
+    display: flex;
+    font-family: Karla, sans-serif;
+    z-index: 3;
+    
+
+    
+}
+
+.panelsecond span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 8px;
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+
+

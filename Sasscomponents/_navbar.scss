@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    background-color: #141252;
+    height: 220px;
+    width: 100%;
+    top: -20px;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+
+.searchbar{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 900px;
+    height: 45px;
+    display: flex;
+    top: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+    
+
+}
+
+*.fa-magnifying-glass{
+    color: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+
+
+.navbar{
+    li{
+        button{
+            font-family:Karla, sans-serif;
+            font-weight: 900;
+            
+        }
+    }
+}
