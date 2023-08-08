@@ -9,5 +9,6 @@
 
 TECHNO USED :
 
-<a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
+
+![icons8-javascript-48](https://github.com/Ukarn08/Dashboard-game-theme/assets/108266433/cb4030aa-ef4f-46e2-ab15-80f2adec7511)
