@@ -9,5 +9,5 @@
 
 TECHNO USED :
 
-https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg
+[https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg](https://icons8.com/icon/108784/javascript)https://icons8.com/icon/108784/javascript
 
