@@ -6,3 +6,8 @@
 
 // Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
 
+
+TECHNO USED :
+
+https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg
+
