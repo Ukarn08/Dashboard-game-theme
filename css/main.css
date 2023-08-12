@@ -28,30 +28,36 @@ img {
   margin: 0;
 }
 
+hover-button:hover {
+  box-shadow: -5px -5px black;
+}
+
+.hover-button {
+  font-family: "Iceland", sans-serif;
+  background-color: #c4b5fd;
+  color: rgb(0, 0, 0);
+}
+
 .navbar {
   display: flex;
   background-color: #ffffff;
-  height: 220px;
+  height: 180px;
   width: 100%;
   top: -20px;
   padding: 0;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: relative;
 }
 
 .searchbar {
-  justify-content: center;
-  align-items: center;
   background-color: #E2E8F0;
-  width: 900px;
+  width: 500px;
   height: 35px;
   display: flex;
-  border-radius: 50px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   font-size: small;
-  position: relative;
   border-color: #141252;
   border-width: 1px;
 }
@@ -70,8 +76,8 @@ input:focus::placeholder {
   font-weight: 900;
   display: flex;
   position: relative;
-  left: 130px;
-  top: 70px;
+  left: 300px;
+  top: 50px;
   margin: 20px;
   background-color: #141252;
   color: white;
@@ -91,6 +97,7 @@ img#avatar {
 }
 
 .textavatar {
+  display: flex;
   width: 50px;
   z-index: 5;
   position: absolute;
@@ -113,24 +120,14 @@ img#avatar {
     text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
   }
   to {
-    text-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000, 0 0 30px #000000;
+    text-shadow: 0 0 20px #141252, 0 0 20px #141252, 0 0 20px #141252, 0 0 20px #141252, 0 0 60px #141252, 0 0 20px #141252, 0 0 20px #141252, 0 0 20px #141252;
   }
 }
-.kassa {
-  width: 300px;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  position: absolute;
-  cursor: pointer;
-  z-index: 1;
-}
-
 .panel {
-  height: 900px;
+  height: 100%;
   width: 300px;
-  left: 0px;
-  top: 200px;
+  left: 0;
+  top: 0;
   gap: 40px;
   font-family: Karla, sans-serif;
   display: flex;
@@ -140,6 +137,7 @@ img#avatar {
   flex-direction: column;
   font-size: 22px;
   z-index: 2;
+  text-align: center;
 }
 
 .panel span:hover {
@@ -159,6 +157,7 @@ img#avatar {
   display: flex;
   font-family: Karla, sans-serif;
   z-index: 3;
+  left: 100px;
 }
 
 .panelsecond span:hover {
@@ -168,6 +167,80 @@ img#avatar {
   text-decoration: underline rgb(255, 255, 255);
 }
 
-body {
+:root {
   background-color: #E2E8F0;
+  font-size: 20px;
+  box-sizing: inherit;
+}
+
+h5 button {
+  display: flex;
+  position: absolute;
+  left: 350px;
+  font-size: 25px;
+  font-family: "Iceland", cursive;
+  cursor: pointer;
+  color: white;
+  background-color: #141252;
+}
+
+.cardtitle {
+  font-family: "Iceland", sans-serif;
+  color: white;
+  background-color: #141252;
+}
+
+.cardspellname {
+  font-family: "Iceland", sans-serif;
+  font-size: xx-large;
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+.card {
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 250px;
+  height: 550px;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px #141252;
+  position: relative;
+  left: 350px;
+  top: 140px;
+  font-size: larger;
+  font-family: Karla, sans-serif;
+  cursor: pointer;
+  gap: 20px;
+  background-image: url(https://64.media.tumblr.com/9697300d35b8191382994619cf489d7e/tumblr_nvgonb8cEq1tvo2c3o1_540.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cardtext {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Iceland", sans-serif;
+  font-weight: 900;
+  backdrop-filter: blur(10px);
+}
+
+.strongword {
+  font-size: 25px;
+  color: black;
+  font-weight: 900;
+}
+
+img.abilities {
+  border-radius: 7px;
+  box-shadow: 0 0 10px 4px #ff00ff;
 }/*# sourceMappingURL=main.css.map */

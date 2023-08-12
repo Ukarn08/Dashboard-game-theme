@@ -1,4 +1,106 @@
-body{
+:root{
 
-    background-color: #E2E8F0;
+  background-color: #E2E8F0;
+    font-size: 20px;
+  box-sizing: inherit;
+  
+  
+  
+  
+  
 }
+
+// Character button template
+
+h5{
+    button{
+        display: flex;
+    position: absolute;
+    left: 350px;
+    font-size: 25px;
+    font-family: 'Iceland', cursive;
+    cursor: pointer;
+    color: white;
+    background-color:#141252;
+    }
+}
+
+// Abilities Title
+
+
+.cardtitle{
+  font-family: 'Iceland',sans-serif;
+  color: white;
+  background-color: #141252;
+}
+
+.cardspellname{
+    font-family: 'Iceland',sans-serif;
+    font-size: xx-large;
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    
+}
+
+// Ability card
+
+.card {
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 250px;
+  height: 550px;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px #141252;
+  position: relative;
+  left: 350px;
+  top: 140px;
+  font-size: larger;
+  font-family: Karla, sans-serif;
+  cursor: pointer;
+  gap: 20px;
+  background-image: url(https://64.media.tumblr.com/9697300d35b8191382994619cf489d7e/tumblr_nvgonb8cEq1tvo2c3o1_540.gif);
+  background-position: center;
+  background-size: cover;
+  
+  
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+// Ability description
+
+.cardtext {
+  font-size: 18px;
+  color: #ffffff;
+  font-family:'Iceland',sans-serif; 
+  font-weight: 900;
+  backdrop-filter: blur(10px);
+}
+
+.strongword{
+  font-size: 25px;
+  color: black;
+  font-weight: 900;
+}
+
+// Abilities Images
+
+img.abilities{
+
+    border-radius: 7px;
+    box-shadow: 0 0 10px 4px #ff00ff;
+}
+
+
+
+
+
+
