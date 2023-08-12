@@ -9,7 +9,7 @@ audio.play();
 
 
 
-// Sound selection on hover
+// Sound selection on hover with class hover-button
 
 
 document.addEventListener("DOMContentLoaded", function () {

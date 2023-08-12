@@ -34,8 +34,84 @@ hover-button:hover {
 
 .hover-button {
   font-family: "Iceland", sans-serif;
-  background-color: #c4b5fd;
-  color: rgb(0, 0, 0);
+  background-color: #141252;
+  color: rgb(255, 255, 255);
+}
+
+:root {
+  background-color: #E2E8F0;
+  font-size: 20px;
+  box-sizing: inherit;
+}
+
+h5 button {
+  display: flex;
+  position: absolute;
+  left: 350px;
+  font-size: 25px;
+}
+
+.cardtitle {
+  font-family: "Iceland", sans-serif;
+  color: white;
+  background-color: #141252;
+}
+
+.cardspellname {
+  font-family: "Iceland", sans-serif;
+  font-size: xx-large;
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+.card {
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 250px;
+  height: 550px;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px #141252;
+  position: relative;
+  left: 350px;
+  top: 140px;
+  font-size: larger;
+  font-family: Karla, sans-serif;
+  cursor: pointer;
+  gap: 80px;
+  background-image: url(https://64.media.tumblr.com/9697300d35b8191382994619cf489d7e/tumblr_nvgonb8cEq1tvo2c3o1_540.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cardtext {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Iceland", sans-serif;
+  font-weight: 900;
+  backdrop-filter: blur(10px);
+}
+
+.strongword {
+  font-size: 35px;
+  color: black;
+  font-weight: 900;
+}
+
+img.abilities {
+  border-radius: 7px;
+  box-shadow: 0 0 10px 4px #ff00ff;
+  width: 80px;
+  height: 80px;
 }
 
 .navbar {
@@ -63,8 +139,10 @@ hover-button:hover {
 }
 
 ::placeholder {
-  color: black;
   font-size: medium;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: grey;
 }
 
 input:focus::placeholder {
@@ -94,6 +172,7 @@ img#avatar {
   position: absolute;
   right: 500px;
   top: 20px;
+  cursor: pointer;
 }
 
 .textavatar {
@@ -123,11 +202,15 @@ img#avatar {
     text-shadow: 0 0 20px #141252, 0 0 20px #141252, 0 0 20px #141252, 0 0 20px #141252, 0 0 60px #141252, 0 0 20px #141252, 0 0 20px #141252, 0 0 20px #141252;
   }
 }
+.weblogo {
+  cursor: pointer;
+  height: 200px;
+  width: 300px;
+}
+
 .panel {
   height: 100%;
   width: 300px;
-  left: 0;
-  top: 0;
   gap: 40px;
   font-family: Karla, sans-serif;
   display: flex;
@@ -150,7 +233,7 @@ img#avatar {
 .panelsecond {
   color: white;
   position: fixed;
-  bottom: 100px;
+  bottom: 50px;
   gap: 20px;
   font-size: 22px;
   flex-direction: column;
@@ -165,82 +248,4 @@ img#avatar {
   transform: scale(1.1);
   margin-left: 8px;
   text-decoration: underline rgb(255, 255, 255);
-}
-
-:root {
-  background-color: #E2E8F0;
-  font-size: 20px;
-  box-sizing: inherit;
-}
-
-h5 button {
-  display: flex;
-  position: absolute;
-  left: 350px;
-  font-size: 25px;
-  font-family: "Iceland", cursive;
-  cursor: pointer;
-  color: white;
-  background-color: #141252;
-}
-
-.cardtitle {
-  font-family: "Iceland", sans-serif;
-  color: white;
-  background-color: #141252;
-}
-
-.cardspellname {
-  font-family: "Iceland", sans-serif;
-  font-size: xx-large;
-  backdrop-filter: blur(10px);
-  color: rgb(255, 255, 255);
-  font-weight: 900;
-}
-
-.card {
-  max-width: 300px;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  max-width: 250px;
-  height: 550px;
-  padding: 35px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 20px;
-  box-shadow: 0 0 10px 5px #141252;
-  position: relative;
-  left: 350px;
-  top: 140px;
-  font-size: larger;
-  font-family: Karla, sans-serif;
-  cursor: pointer;
-  gap: 20px;
-  background-image: url(https://64.media.tumblr.com/9697300d35b8191382994619cf489d7e/tumblr_nvgonb8cEq1tvo2c3o1_540.gif);
-  background-position: center;
-  background-size: cover;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.cardtext {
-  font-size: 18px;
-  color: #ffffff;
-  font-family: "Iceland", sans-serif;
-  font-weight: 900;
-  backdrop-filter: blur(10px);
-}
-
-.strongword {
-  font-size: 25px;
-  color: black;
-  font-weight: 900;
-}
-
-img.abilities {
-  border-radius: 7px;
-  box-shadow: 0 0 10px 4px #ff00ff;
 }/*# sourceMappingURL=main.css.map */

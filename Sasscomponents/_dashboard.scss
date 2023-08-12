@@ -2,15 +2,20 @@
 // DASHBOARD                     // CHECK Z-INDEXS
 
 
+.weblogo{
 
+    cursor: pointer;
+    height: 200px;
+    width: 300px;
+    
+    
+}
 
 
 
 .panel{
     height: 100%;
-    width: 300px ;
-    left: 0;
-    top: 0;
+    width: 300px;
     gap: 40px;
     font-family: Karla, sans-serif;
     display: flex;
@@ -21,6 +26,8 @@
     font-size: 22px;
     z-index: 2;
     text-align: center;
+    
+    
     
     
 }
@@ -39,7 +46,7 @@
 
     color: white;
     position: fixed;
-    bottom: 100px;
+    bottom: 50px;
     gap: 20px;
     font-size: 22px;
     flex-direction: column;
