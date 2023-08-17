@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="soundmanager.js" type="text/javascript"></script>
-    <script src="selectsound.js" type="text/javascript"></script>
     <audio id="hoverSound"><source src="playselect.mp3" type="audio/mp3"></audio> 
     <title>Dashboard</title>
 </head>
@@ -18,7 +17,7 @@
  <main>                         <!--Bloc Dashboard-->
     <section>      
         <h1 class="panel" id="panel">
-            <a href="http://127.0.0.1:5500/index.html"><img class="weblogo" id="home" alt="logo" src="./img/WikiLeag.png"></a>
+            <a href="http://127.0.0.1:5500/index.html"><img class="weblogo" id="home" alt="logo" src="./img/WikiLeague.png"></a>
             <span id="home"><i class="fa-solid fa-house fa-2xs"></i>/Home</span>
             <span><i class="fa-regular fa-user fa-2xs"></i>/Profile</span>
             <span><i class="fa-regular fa-message fa-2xs"></i>/Messages</span>
@@ -37,7 +36,7 @@
                  <!--Bloc Navbar-->
 
          
-         <h3> <a onclick="audio.play()" class="textavatar" href="https://github.com/Ukarn08" target="_blank">Github/Ukarn08</a> <a href="https://github.com/Ukarn08" target="_blank"><img onclick="audio.play()" src="./img/kassavatar.png" alt="user,avatar"type="img" id="avatar"></a></h3>
+         <h3> <a onclick="audio.play()" class="textavatar" href="https://github.com/Ukarn08" target="_blank">Github/Ukarn08®</a> <a href="https://github.com/Ukarn08" target="_blank"><img onclick="audio.play()" src="./img/kassavatar.png" alt="user,avatar"type="img" id="avatar"></a></h3>
         <h4 class="navbar" id="navbar">
             <ul><input class="searchbar" type="search"   placeholder="🔍" id="searchbar" ></ul>
                 <li style="list-style: none;"><button class="hover-button" id="button1">New</button></li>
@@ -48,17 +47,47 @@
  </main>
 
                <!--Bloc Cards-->
-    <h5><button class="hover-button" type="button" target="_top"   id="button4">Champion : Kassadin</button></h5>
+    <h5><button class="hover-button" type="button" target="_top"   id="button4">Champion : Kassadin </button></h5>
 
     <section>
-        <div class="card">
-            <button class="hover-button">Passive</button>
-            <p class="cardspellname"><strong class="strongword">V</strong>oid Stone :</p>
-            <p class="cardtext"><strong class="strongword">Kassadin </strong> takes reduced magic damage and ignores unit collision.</p>
-        </div>
+        <a href="https://www.mobafire.com/league-of-legends/ability/void-stone-132" target="_blank"><div class="card">
+            <button class="hover-button">Void Stone</button>
+            <img class="cardspellimg1" src="./img/Kassadin_Void_Stone.png" alt="Spell">
+            <p class="cardtext"><strong class="strongword">Kassadin </strong> takes reduced magic damage (10%) and ignores unit collision.</p>
+        </div></a>
 
 
+        <a href="https://www.mobafire.com/league-of-legends/ability/null-sphere-133" target="_blank"><div class="card">
+            <button class="hover-button">Null Sphere</button>
+            <img class="cardspellimg2" src="./img/Kassadin_Null_Sphere.png" alt="Spell">
+            <p class="cardtext"><strong class="strongword">Kassadin </strong> fires an orb of void energy, dealing 65 / 95 / 125 / 155 / 185 (+70% of ability power) magic damage and interrupting channels. Kassadin also gains 80 / 110 / 140 / 170 / 200 (+30% of ability power) magic shield for 1.5 seconds.</p>
+        </div></a>
 
+        
+
+        <a href="https://www.mobafire.com/league-of-legends/ability/nether-blade-134" target="_blank"><div class="card">
+            <button class="hover-button"> Nether Blade </button>
+            <img class="cardspellimg3" src="./img/Kassadin_Nether_Blade.png" alt="Spell">
+            <p class="cardtext"><strong class="strongword">Kassadin </strong>   attacks deal an additional 20 (+10% of ability power) bonus magic damage.
+
+                Active: Kassadin charges his blade, causing his next attack to deal 50 / 75 / 100 / 125 / 150 (+80% of ability power) magic damage and restore 4 / 4.5 / 5 / 5.5 / 6% of his missing mana, increased to 20 / 22.5 / 25 / 27.5 / 30% of his missing mana against champions.</p>
+        </div></a>
+        
+        <a href="https://www.mobafire.com/league-of-legends/ability/force-pulse-135" target="_blank"><div class="card">
+            <button class="hover-button"> Force Pulse </button>
+            <img class="cardspellimg4" src="./img/Kassadin_Force_Pulse.png" alt="Spell">
+            <p class="cardtext"><strong class="strongword">Kassadin </strong> Force Pulse's cooldown is reduced by 0.75 seconds whenever any ability is used near Kassadin.
+
+                Active: Kassadin unleashes a void pulse, dealing 60 / 90 / 120 / 150 / 180 (+85% of ability power) magic damage and slowing by 50 / 60 / 70 / 80 / 90% for 1 second.</p>
+        </div></a>
+
+        <a href="https://www.mobafire.com/league-of-legends/ability/riftwalk-136" target="_blank"><div class="card">
+            <button class="hover-button"> Riftwalk </button>
+            <img class="cardspellimg5" src="./img/Kassadin_Riftwalk.png" alt="Spell">
+            <p class="cardtext"><strong class="strongword">Kassadin </strong> teleports to a nearby location, dealing 70 / 90 / 110 (+40% of ability power) (+2% maximum mana) magic damage.
+
+                Each subsequent use of this ability within the next 15 seconds doubles the mana cost and deals an additional 35 / 45 / 55 (+10% of ability power) (+1% maximum mana) magic damage. The cost and damage increases can stack up to 4 times.</p>
+        </div></a>
 
 
     </section>

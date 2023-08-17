@@ -1,5 +1,5 @@
 button:hover {
-  box-shadow: -5px -5px black;
+  box-shadow: -5px -5px rgb(0, 0, 0);
   transform: scale(1.2);
 }
 
@@ -8,12 +8,12 @@ button {
   min-width: 100px;
   padding: 20px;
   border-radius: 8px;
-  border: 4px solid black;
+  border: 4px solid rgb(0, 0, 0);
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 700;
   background-color: white;
-  box-shadow: 5px 5px black;
+  box-shadow: 5px 5px rgb(0, 0, 0);
   transition: box-shadow 0.3s;
 }
 
@@ -29,19 +29,22 @@ img {
 }
 
 hover-button:hover {
-  box-shadow: -5px -5px black;
+  box-shadow: -5px -5px rgb(255, 255, 255);
 }
 
 .hover-button {
   font-family: "Iceland", sans-serif;
-  background-color: #141252;
-  color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 :root {
   background-color: #E2E8F0;
   font-size: 20px;
   box-sizing: inherit;
+  background-image: url(https://images4.alphacoders.com/123/1239722.jpg);
+  background-size: cover;
+  background-position: top -30% left 30%;
 }
 
 h5 button {
@@ -49,69 +52,106 @@ h5 button {
   position: absolute;
   left: 350px;
   font-size: 25px;
+  top: 169px;
 }
 
-.cardtitle {
-  font-family: "Iceland", sans-serif;
-  color: white;
-  background-color: #141252;
+.cardspellimg1 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 10px #fdfdfd;
+  border-radius: 7%;
+  margin-left: 45px;
 }
 
-.cardspellname {
-  font-family: "Iceland", sans-serif;
-  font-size: xx-large;
-  backdrop-filter: blur(10px);
-  color: rgb(255, 255, 255);
-  font-weight: 900;
+.cardspellimg2 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 10px #fdfdfd;
+  border-radius: 7%;
+  margin-left: 45px;
+}
+
+.cardspellimg3 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 10px #fdfdfd;
+  border-radius: 7%;
+  margin-left: 45px;
+}
+
+.cardspellimg4 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 10px #fdfdfd;
+  border-radius: 7%;
+  margin-left: 45px;
+}
+
+.cardspellimg5 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 7%;
+  margin-left: 45px;
+  box-shadow: 0 0 10px 10px #fdfdfd;
 }
 
 .card {
-  max-width: 300px;
+  margin-right: 50px;
   min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: inline-table;
   max-width: 250px;
   height: 550px;
   padding: 35px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
-  box-shadow: 0 0 10px 10px #141252;
+  box-shadow: 0 0 10px 10px #000000;
   position: relative;
   left: 350px;
-  top: 140px;
+  top: 90px;
   font-size: larger;
   font-family: Karla, sans-serif;
   cursor: pointer;
-  gap: 80px;
-  background-image: url(https://64.media.tumblr.com/9697300d35b8191382994619cf489d7e/tumblr_nvgonb8cEq1tvo2c3o1_540.gif);
-  background-position: center;
+  background-image: url(https://64.media.tumblr.com/fb9f1e899cbb9e0e9cc0e551dd3d40c1/tumblr_p4gq736TQV1tltr42o1_540.gifv);
   background-size: cover;
+  background-position: right 80% bottom 45%;
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: skew(2deg, 3deg);
 }
 
 .cardtext {
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   font-family: "Iceland", sans-serif;
   font-weight: 900;
   backdrop-filter: blur(10px);
+  justify-content: space-evenly;
+  border-radius: 7%;
+  box-shadow: 0 0 1px 1px #ffffff;
 }
 
 .strongword {
   font-size: 35px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: 900;
-}
-
-img.abilities {
-  border-radius: 7px;
-  box-shadow: 0 0 10px 4px #ff00ff;
-  width: 80px;
-  height: 80px;
+  justify-content: space-evenly;
 }
 
 .navbar {
@@ -134,7 +174,7 @@ img.abilities {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   font-size: small;
-  border-color: #141252;
+  border-color: #c417a7;
   border-width: 1px;
 }
 
@@ -157,8 +197,8 @@ input:focus::placeholder {
   left: 300px;
   top: 50px;
   margin: 20px;
-  background-color: #141252;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   border-radius: 5px;
   height: 25px;
@@ -214,7 +254,7 @@ img#avatar {
   gap: 40px;
   font-family: Karla, sans-serif;
   display: flex;
-  background-color: #141252;
+  background-color: rgb(0, 0, 0);
   position: fixed;
   color: white;
   flex-direction: column;
