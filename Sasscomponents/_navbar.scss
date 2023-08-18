@@ -1,13 +1,14 @@
 .navbar{
-    display: flex;
-    background-color: #ffffff;
-    height: 180px;
-    width: 100%;
+    
+    background-color: white;
+    width: 100% !important;
+    min-height: 180px;
     top: -20px;
     padding:0;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
     position: relative;
+    
+    
 }
 
 
@@ -15,12 +16,15 @@
     background-color: #E2E8F0;
     width: 500px;
     height: 35px;
-    display: flex;
+    position: relative;
     overflow: hidden;
     font-family: Roboto, sans-serif;
     font-size:small;
     border-color: #c417a7;
     border-width: 1px;
+    top: 50px;
+    left: 390px;
+    
     
     
 }
@@ -47,11 +51,8 @@ input:focus::placeholder {
         button{
             font-family:Karla, sans-serif;
             font-weight: 900;
-            display: flex;
             position: relative;
-            left: 300px;
-            top: 50px;
-            margin: 20px;
+            margin: 6px;
             background-color: #ffffff;
             color: rgb(0, 0, 0);
             cursor: pointer;
@@ -59,16 +60,39 @@ input:focus::placeholder {
             height: 25px;
             font-size: large;
             width: 60px;
+            top: -20px;
+            
+            
+            
+            
+            
         }
     }
 }
+
+
+.buttonmanage{
+
+position: absolute;
+margin-left: 970px;
+position: relative;
+
+
+}
+
+.span1{
+
+  margin: 5px;
+}
+
+
 
  img#avatar{
     width: 50px;
     z-index: 4;
     position: absolute;
-    right: 500px;
-    top: 20px;
+    left: 1530px;
+    top: 45px;
     cursor: pointer;
  }
 
@@ -78,8 +102,8 @@ input:focus::placeholder {
     width: 50px;
     z-index: 5;
     position: absolute;
-    right: 440px;
-    top: 40px;
+    left: 1600px;
+    top: 55px;
     text-decoration: none;
     font-family: Karla, sans-serif;
     color: #ffffff;

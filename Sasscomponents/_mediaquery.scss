@@ -1,13 +1,57 @@
 // Phone version 
 
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 300px) and (max-width: 900px ) {
+
+
+h5 button{
+
+    display: flex;
+    position: relative;
+    top: 25px;
+}
+
+.buttonmanage{
+
+    position: relative;
+    display: inline-flex;
+    right: 620px;
+    top: 80px;
+}
 
 
 
+.weblogo{
+
+    display: block;
+}
+
+
+.navbar{
+
+    display: flex;
+
+    position: fixed;
+    width: 100%;
+
+}
+
+.card{
+
+    margin: 50px;
+    
 
     
 }
+
+    
+}
+
+
+
+
+
+
 
 
 

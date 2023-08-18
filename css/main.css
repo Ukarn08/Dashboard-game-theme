@@ -15,6 +15,7 @@ button {
   background-color: white;
   box-shadow: 5px 5px rgb(0, 0, 0);
   transition: box-shadow 0.3s;
+  cursor: pointer;
 }
 
 img {
@@ -42,9 +43,11 @@ hover-button:hover {
   background-color: #E2E8F0;
   font-size: 20px;
   box-sizing: inherit;
-  background-image: url(https://images4.alphacoders.com/123/1239722.jpg);
+  background-image: url(/img/kassadinwallpaper.webp);
   background-size: cover;
   background-position: top -30% left 30%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h5 button {
@@ -154,15 +157,37 @@ h5 button {
   justify-content: space-evenly;
 }
 
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  h5 button {
+    display: flex;
+    position: relative;
+    top: 25px;
+  }
+  .buttonmanage {
+    position: relative;
+    display: inline-flex;
+    right: 620px;
+    top: 80px;
+  }
+  .weblogo {
+    display: block;
+  }
+  .navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+  }
+  .card {
+    margin: 50px;
+  }
+}
 .navbar {
-  display: flex;
-  background-color: #ffffff;
-  height: 180px;
-  width: 100%;
+  background-color: white;
+  width: 100% !important;
+  min-height: 180px;
   top: -20px;
   padding: 0;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
   position: relative;
 }
 
@@ -170,12 +195,14 @@ h5 button {
   background-color: #E2E8F0;
   width: 500px;
   height: 35px;
-  display: flex;
+  position: relative;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   font-size: small;
   border-color: #c417a7;
   border-width: 1px;
+  top: 50px;
+  left: 390px;
 }
 
 ::placeholder {
@@ -192,11 +219,8 @@ input:focus::placeholder {
 .navbar li button {
   font-family: Karla, sans-serif;
   font-weight: 900;
-  display: flex;
   position: relative;
-  left: 300px;
-  top: 50px;
-  margin: 20px;
+  margin: 6px;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   cursor: pointer;
@@ -204,14 +228,25 @@ input:focus::placeholder {
   height: 25px;
   font-size: large;
   width: 60px;
+  top: -20px;
+}
+
+.buttonmanage {
+  position: absolute;
+  margin-left: 970px;
+  position: relative;
+}
+
+.span1 {
+  margin: 5px;
 }
 
 img#avatar {
   width: 50px;
   z-index: 4;
   position: absolute;
-  right: 500px;
-  top: 20px;
+  left: 1530px;
+  top: 45px;
   cursor: pointer;
 }
 
@@ -220,8 +255,8 @@ img#avatar {
   width: 50px;
   z-index: 5;
   position: absolute;
-  right: 440px;
-  top: 40px;
+  left: 1600px;
+  top: 55px;
   text-decoration: none;
   font-family: Karla, sans-serif;
   color: #ffffff;
@@ -246,6 +281,7 @@ img#avatar {
   cursor: pointer;
   height: 200px;
   width: 300px;
+  display: block;
 }
 
 .panel {
