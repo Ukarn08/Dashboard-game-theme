@@ -157,6 +157,10 @@ h5 button {
   justify-content: space-evenly;
 }
 
+span {
+  text-decoration: underline solid pink;
+}
+
 @media screen and (min-width: 300px) and (max-width: 900px) {
   h5 button {
     display: flex;
@@ -303,7 +307,7 @@ img#avatar {
   cursor: pointer;
   transform: scale(1.1);
   margin-left: 20px;
-  text-decoration: underline rgb(255, 255, 255);
+  text-decoration: underline solid pink;
 }
 
 .panelsecond {
