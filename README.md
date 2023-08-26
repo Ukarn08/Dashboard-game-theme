@@ -1,13 +1,59 @@
-# Dashboard
+# WikiLeag
+
+![image](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/f148ea02-ac71-426c-a5fb-3ff30c854428)
+ Complete Dashboard  which is responsive with audio onclick on some elements ( League of Legends character theme ).
+ Every characters will be implemented with a top trending skins sections and a top champions pickrate.
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
 
 
-// Tableau de bord complet et responsive avec audio onclick sur certains elements ( theme personnage de jeu vidéo ) 
+### Installation
 
 
-// Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Ukarn08/League-Characters-Wiki.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
 
-TECHNOLOGY USED :
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TechStack Used  :
+
+
+
+
+
+
 
 
 
