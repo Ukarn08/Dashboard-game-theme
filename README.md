@@ -4,10 +4,10 @@
 
 
 
-[![flag fr](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/d9d37fc9-920a-43d3-8cb8-3098e1ab7077)](https://png.pngtree.com/png-clipart/20190122/ourmid/pngtree-american-flag-elements-png-image_447902.jpg)// Tableau de bord complet et responsive avec audio onclick sur certains elements ( theme personnage de jeu vidéo ) 
+// Tableau de bord complet et responsive avec audio onclick sur certains elements ( theme personnage de jeu vidéo ) 
 
 
-![flagus](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/e2a87711-b915-49f7-b4af-b04c4bc4abd0)// Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
+// Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
 
 
 TECHNOLOGY USED :
