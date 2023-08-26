@@ -19,7 +19,7 @@
 
 
 
-TECHNOLOGY USED :
+<p style=color:"pink">TECHO USED</p> :
 
 
 
