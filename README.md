@@ -10,7 +10,8 @@
  Tableau de bord complet et responsive avec audio onclick sur certains elements ( theme personnage de jeu vidéo ) 
 
 
-//  Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
+![image](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/f148ea02-ac71-426c-a5fb-3ff30c854428)
+ Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
 
 
 TECHNOLOGY USED :
