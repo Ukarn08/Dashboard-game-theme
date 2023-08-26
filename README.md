@@ -4,10 +4,11 @@
 
 
 
+![image](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/c468991b-ab79-4029-96f7-451f0193052e)
 // Tableau de bord complet et responsive avec audio onclick sur certains elements ( theme personnage de jeu vidéo ) 
 
 
-https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png// Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
+//  Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
 
 
 TECHNOLOGY USED :
