@@ -152,10 +152,9 @@ h5{
   color: #ffffff;
   font-family:'Iceland',sans-serif; 
   font-weight: 900;
-  backdrop-filter: blur(10px);
   justify-content: space-evenly;
-  border-radius: 7%;
-  box-shadow: 0 0 1px 1px #ffffff;
+  border-radius: 4%;
+  background-image: url(../img/blackbg.webp)
   
   
 }
@@ -169,12 +168,6 @@ h5{
 }
 
 
-span{
-
-  text-decoration:underline solid pink;
-  
-
-}
 
 
 
