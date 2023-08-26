@@ -19,7 +19,7 @@
 
 
 
-<p style=color:"pink">TECHO USED</p> :
+<p style="color:pink">TECHO USED</p> :
 
 
 
