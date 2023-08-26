@@ -15,7 +15,8 @@
  Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
 
 
-!TechStack : 
+!TechStack Used ![image](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/8a779898-8122-4536-8675-45eadfca1c37)
+: 
 
 
 
