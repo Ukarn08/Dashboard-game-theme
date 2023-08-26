@@ -4,8 +4,10 @@
 
 
 
-![image](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/c468991b-ab79-4029-96f7-451f0193052e)
-// Tableau de bord complet et responsive avec audio onclick sur certains elements ( theme personnage de jeu vidéo ) 
+
+
+![image](https://github.com/Ukarn08/League-Characters-Wiki/assets/108266433/13f3792a-00e1-4b20-95ed-8aa6d2b56d62)
+ Tableau de bord complet et responsive avec audio onclick sur certains elements ( theme personnage de jeu vidéo ) 
 
 
 //  Complete Dashboard  which is responsive with audio onclick on some elements ( videogame character theme ) 
