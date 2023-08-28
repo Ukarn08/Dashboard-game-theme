@@ -1,6 +1,6 @@
 .navbar{
     
-    background-color: white;
+  background-color: white;
     width: 100% !important;
     min-height: 180px;
     top: -20px;
@@ -10,6 +10,8 @@
     
     
 }
+
+
 
 
 .searchbar{
@@ -34,9 +36,9 @@
 ::placeholder{
     
     font-size: medium;
-    font-family: 'Roboto';
+    font-family: 'Iceland';
     font-weight: 600;
-    color: grey;
+    color: rgb(84, 70, 134);
     
 }
 
@@ -73,13 +75,14 @@ input:focus::placeholder {
 
 .buttonmanage{
 
-position: absolute;
-margin-left: 970px;
-position: relative;
-top: 15px;
-
-
-}
+  position: absolute;
+  margin-left: 970px;
+  position: relative;
+  top: 15px;
+  
+  
+  
+  }
 
 .span1{
 

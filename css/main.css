@@ -205,9 +205,9 @@ h5 button {
 
 ::placeholder {
   font-size: medium;
-  font-family: "Roboto";
+  font-family: "Iceland";
   font-weight: 600;
-  color: grey;
+  color: rgb(84, 70, 134);
 }
 
 input:focus::placeholder {
@@ -313,5 +313,5 @@ img#avatar {
 .dashboardimgs {
   height: 300px;
   width: 300px;
-  margin-top: -85px;
+  margin-top: -90px;
 }/*# sourceMappingURL=main.css.map */
